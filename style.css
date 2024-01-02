@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: background: var(--White-97, #F7F7F8);
+
+;
+}
+
+.container{
+    max-width: calc(100% - 120px);
+    margin: auto;
+ 
+    
+ 
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+.Benefits .row:nth-child(1){
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Benefits p{
+    width: 70%;
+ text-align: left;
+   
+}
+.Benefits a{
+    background-color: rgba(252, 252, 253, 1);
+    text-decoration: none;
+    padding: 18px, 24px, 18px, 24px;
+    color:  rgba(38, 38, 38, 1);
+    
+}
+.Benefits .pic{
+   
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+   
+  
+}
+.Benefits .card{
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+   border-radius: 12px;
+  justify-content: right;
+  background-color: rgb(211, 219, 219);
+  align-items: stretch;
+  padding: 2%;
+  
+}
+.Benefits .row:nth-child(2){
+  gap: 1rem;
+}
+.Benefits .arow{
+    height: 10%;
+    width:10% ;
+    background: var(--White-99, #FCFCFD);
+    padding: 3%;
+}
+.Benefits .num{
+    display: flex;
+    justify-content: right;
+    font-size: 300%;
+   
+}
+.testimonial h3{
+    color: var(--Grey-15, #262626);
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.testimonial .row:nth-child(1){
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.testimonial p{
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+   
+}
+.testimonial a{
+   
+    background-color: rgba(252, 252, 253, 1);
+    text-decoration: none;
+    padding: 18px, 24px, 18px, 24px;
+    color:  rgba(38, 38, 38, 1);
+}
+.testimonial .row:nth-child(2){
+  
+    display: flex;
+align-items: flex-start;
+gap: 30px;
+align-self: stretch;
+  }
+.testimonial .card{
+    display: flex;
+    flex: 1 1 500px;
+    flex-direction: column;
+   border-radius: 12px;
+  justify-content: right;
+  background-color: rgb(228, 235, 235);
+  align-items: stretch;
+  padding: 2%;
+  
+}
+.testimonial .photo{
+    display: flex;
+padding: 30px 50px;
+align-items: center;
+align-self: stretch;
+}
+
